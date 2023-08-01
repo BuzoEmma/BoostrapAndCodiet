@@ -1,0 +1,306 @@
+/* body {
+    margin-top: 40px;
+    }  */
+/* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+
+/* body::before {
+    content: "XS";
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+  } */
+
+/* This box class is purely used for explaining how the bootstrap grid system works. */
+/* .box {
+    background-color: lightblue;
+    border: 1px solid blue;
+    min-height: 50px;
+    font-size: 2rem;
+  } */
+
+/* @media (min-width: 576px) {
+    body::before {
+      content: "SM";
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body::before {
+      content: "MD";
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body::before {
+      content: "LG";
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body::before {
+      content: "XL";
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: "XXL";
+    }
+  } */
+
+/* Home CSS Start here */
+.section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 8, 46, 0.918),
+      rgba(1, 16, 155, 0.74)
+    ),
+    url("./image/Planning.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Top Nav Bar */
+.btn-group {
+  height: 30px;
+  background-color: transparent !important;
+}
+.btn-group button {
+  color: black;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+.btn-group button:hover {
+  color: black;
+  background-color: transparent !important;
+}
+
+.dropdown-menu {
+  margin-top: -3px !important;
+  padding: 5px;
+  cursor: pointer;
+  color: black !important;
+  background-color: rgb(167, 161, 204) !important;
+}
+.dropdown-menu li:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* Nav-Bar */
+
+.navbar {
+  background-color: rgb(2, 2, 75);
+}
+
+.active {
+  color: blue !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+.navbar-toggler {
+  outline: none !important ;
+  border: none !important;
+  color: rgba(255, 255, 255, 0.041) !important;
+  background-color: white !important;
+}
+.navbar-collapse {
+  flex-grow: initial;
+}
+.navbar-collapse ul li a {
+  color: white !important;
+}
+.navbar-collapse ul li a:hover {
+  color: blue !important;
+}
+.show ul li a {
+  color: blue !important;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.205);
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.boby-section {
+  color: white;
+  /* padding: 0;
+  margin: 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 8, 46, 0.918),
+      rgba(1, 16, 155, 0.74)
+    ),
+    url("./image//bg.webp");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.description {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 8, 46, 0.918),
+      rgba(1, 16, 155, 0.74)
+    ),
+    url("./image/my-pcs.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.cards-sect {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+
+/* Contact form */
+
+.input-form {
+  width: 420px;
+  height: 50px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 1rem;
+  border: 1px solid green;
+}
+.input {
+  outline: none;
+  width: 220px;
+  border: none;
+  padding: -5px;
+  /* border-start-end-radius: 5px;
+  border-end-start-radius: 5px; */
+}
+
+.form-button {
+  /* padding: 5px 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 0.4rem;
+}
+
+/* Sixth  section */
+.recent-card {
+  gap: 10px;
+}
+.recent-card .card {
+  width: 300px !important;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+}
+
+.recent-card .card img {
+  height: 200px;
+}
+.text-body-secondary {
+  color: blue !important;
+  cursor: pointer;
+}
+
+/* Home CSS Ends Here */
+
+/* About CSS Start Here */
+
+.section-about {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 8, 46, 0.918),
+      rgba(1, 16, 155, 0.74)
+    ),
+    url("./image/Planning.jpg");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+/* About CSS Ends Here */
+
+/* Contact CSS Ends Here */
+
+.section-contact {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 8, 46, 0.918),
+      rgba(1, 16, 155, 0.74)
+    ),
+    url("./image/Planning.jpg");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+/* Contact CSS Ends Here */
+
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form div{
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.form div label{
+  gap: 4px;
+  padding-bottom: 2px;
+}
+
+.form div input{
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+
+.form div textarea{
+  resize: none;
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+
+.form button{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+ height: 40px;
+ background: blue;
+ color: white;
+}
+
+.form button:hover{
+  background: white;
+  color: blue;
+}
